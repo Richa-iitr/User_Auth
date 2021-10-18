@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap');
+
+.mainback{
+    min-height: 84vh;
+    display: flex;
+    padding: 15px 0;
+}
+.page{
+    width: 100%;
+}
+.heading{
+    font-size: 60px;
+    font-family:  'Stick No Bills', sans-serif;
+    padding: 5px 10px;
+}
+.line{
+    border-top: 3px solid rgb(252, 252, 252);
+}
+
+@media only screen and (max-width: 600px) {
+    .heading{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+}
